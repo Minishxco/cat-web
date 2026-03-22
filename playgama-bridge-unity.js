@@ -135,14 +135,14 @@ function initializeBridge() {
             bridge.platform.on('pause_state_changed', isPaused => sendMessageToUnity('OnPauseStateChanged', isPaused.toString()))
 
             let unityLoader = document.createElement('script')
-            unityLoader.src = 'Build/8bd811a603b7f3086f8976c33296f64f.loader.js'
+            unityLoader.src = 'Build/8d4d929e7e7c7e786acc59514a02c3d3.loader.js'
             unityLoader.onload = () => {
                 createUnityInstance(
                     CANVAS,
                     {
-                        dataUrl: 'Build/a0a014def050c4a25000967b345c3d7f.data',
+                        dataUrl: 'Build/3d9bb4d0f7b66f8f42a1a818fa81898b.data',
                         frameworkUrl: 'Build/7988322af56801b581b9991111278dd2.framework.js',
-                        codeUrl: 'Build/c5b80ec7b9db8f8aa3762051ad7be65d.wasm',
+                        codeUrl: 'Build/d75f0230b7f70ecc2f6b73ae809b8843.wasm',
                         streamingAssetsUrl: 'StreamingAssets',
                         companyName: 'FedericoVS',
                         productName: 'Commit',
