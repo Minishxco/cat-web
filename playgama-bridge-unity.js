@@ -140,9 +140,9 @@ function initializeBridge() {
                 createUnityInstance(
                     CANVAS,
                     {
-                        dataUrl: 'Build/e93b20ece9ab4dd6f02d7658855f788d.data.br',
-                        frameworkUrl: 'Build/7988322af56801b581b9991111278dd2.framework.js.br',
-                        codeUrl: 'Build/c5b80ec7b9db8f8aa3762051ad7be65d.wasm.br',
+                        dataUrl: 'Build/a0a014def050c4a25000967b345c3d7f.data',
+                        frameworkUrl: 'Build/7988322af56801b581b9991111278dd2.framework.js',
+                        codeUrl: 'Build/c5b80ec7b9db8f8aa3762051ad7be65d.wasm',
                         streamingAssetsUrl: 'StreamingAssets',
                         companyName: 'FedericoVS',
                         productName: 'Commit',
