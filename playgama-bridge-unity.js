@@ -135,18 +135,18 @@ function initializeBridge() {
             bridge.platform.on('pause_state_changed', isPaused => sendMessageToUnity('OnPauseStateChanged', isPaused.toString()))
 
             let unityLoader = document.createElement('script')
-            unityLoader.src = 'Build/efe39b9e62a833fdb6ae7c3dd241ce98.loader.js'
+            unityLoader.src = 'Build/4f1ce901e949e9e576139a19b537ccf3.loader.js'
             unityLoader.onload = () => {
                 createUnityInstance(
                     CANVAS,
                     {
-                        dataUrl: 'Build/2dcfd8b8e336b53e6800ca36f1ab22ae.data',
-                        frameworkUrl: 'Build/4a3e667d3d08a12008c8108e8dea6c77.framework.js',
-                        codeUrl: 'Build/bd1a96018bce613b0db599a36ba0e53a.wasm',
+                        dataUrl: 'Build/e1caa9d77669f082249cc0eef41a35f6.data.br',
+                        frameworkUrl: 'Build/155a1dc282e1d5e9eb801840d39d9f9b.framework.js.br',
+                        codeUrl: 'Build/909e54d1a24902e7f775b1a75a37d74e.wasm.br',
                         streamingAssetsUrl: 'StreamingAssets',
                         companyName: 'FedericoVS',
                         productName: 'Commit',
-                        productVersion: '1.3',
+                        productVersion: '1.4',
                         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
                         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
                     },
